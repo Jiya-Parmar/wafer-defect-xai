@@ -1,0 +1,10 @@
+torch==2.8.0+cu126 
+torchvision==0.23.0+cu126
+numpy
+pandas
+scikit-learn
+imbalanced-learn
+kagglehub
+opencv-python
+matplotlib
+grad-cam==1.5.5
