@@ -1,4 +1,4 @@
-# Wafer Defect Classification: Interpretable Deep Learning for Yield Analysis 🏭
+<img width="3435" height="1779" alt="grad_cam_sample_1_Loc" src="https://github.com/user-attachments/assets/2cda90a1-000f-411e-a8b2-f5ec7968eb66" /># Wafer Defect Classification: Interpretable Deep Learning for Yield Analysis 🏭
 
 This repository contains the complete, high-performance solution for classifying the eight major defect patterns found on semiconductor wafer maps (WM-811K industrial dataset). The focus is on developing a **robust, memory-efficient, and trustworthy** AI system suitable for manufacturing quality control.
 
@@ -54,8 +54,9 @@ wafer-defect-xai/
 │   └── custom_wafer_cnn_weighted.pth      # Final trained weights (F1 = 0.8574)
 │
 ├── assets/
-│
-├── XAI_VISUALS/                           # Folder for all Grad-CAM images (.png)
+│    └── grad_cam_sample_1_Loc.png
+│    └── grad_cam_sample_2_Center.png
+│    └── grad_cam_sample_3_Edge-Ring.png                      # Folder for all Grad-CAM images (.png)
 │
 ├── Wafer_Defect_Classifier.ipynb          # Clean, executable project notebook
 │
