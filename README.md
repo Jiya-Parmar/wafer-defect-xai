@@ -60,6 +60,7 @@ wafer-defect-xai/
 ├── Wafer_Defect_Classifier.ipynb          # Clean, executable project notebook
 │
 └── requirements.txt                       # Python environment dependencies
+```
 
 
 ### How to Run the Project
