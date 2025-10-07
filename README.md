@@ -56,7 +56,7 @@ wafer-defect-xai/
 ├── assets/
 │    └── grad_cam_sample_1_Loc.png
 │    └── grad_cam_sample_2_Center.png
-│    └── grad_cam_sample_3_Edge-Ring.png                      # Folder for all Grad-CAM images (.png)
+│    └── grad_cam_sample_3_Edge-Ring.png                      
 │
 ├── Wafer_Defect_Classifier.ipynb          # Clean, executable project notebook
 │
