@@ -1,4 +1,4 @@
-<img width="3435" height="1779" alt="grad_cam_sample_1_Loc" src="https://github.com/user-attachments/assets/2cda90a1-000f-411e-a8b2-f5ec7968eb66" /># Wafer Defect Classification: Interpretable Deep Learning for Yield Analysis 🏭
+# Wafer Defect Classification: Interpretable Deep Learning for Yield Analysis 🏭
 
 This repository contains the complete, high-performance solution for classifying the eight major defect patterns found on semiconductor wafer maps (WM-811K industrial dataset). The focus is on developing a **robust, memory-efficient, and trustworthy** AI system suitable for manufacturing quality control.
 
