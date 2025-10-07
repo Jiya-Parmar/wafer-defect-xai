@@ -27,10 +27,10 @@ The success of the weighted loss is shown in the improved performance on difficu
 
 | Defect Class | Precision | Recall | F1-Score | Analysis |
 | :--- | :--- | :--- | :--- | :--- |
-| `['Loc']` | **0.91** | 0.45 | 0.60 | High precision but lower recall is the remaining weakness; indicates reliability when predicting 'Loc' but difficulty finding all instances. |
-| `['Edge-Loc']` | 0.84 | 0.91 | 0.88 | Strong balance, high identification rate. |
-| `['Center']` | 0.71 | **0.99** | 0.83 | Excellent recall—the model rarely misses a true 'Center' defect. |
-| `['Donut']` | 0.89 | 0.77 | 0.82 | Significant improvement in F1-score for a historically low-sample class. |
+| `['Loc']`   | **0.91** | 0.45 | 0.60 | High precision but lower recall is the remaining weakness; indicates reliability when predicting 'Loc' but difficulty finding all instances. |
+| `['Edge-Loc']`   | 0.84 | 0.91 | 0.88 | Strong balance, high identification rate. |
+| `['Center']`   | 0.71 | **0.99** | 0.83 | Excellent recall—the model rarely misses a true 'Center' defect. |
+| `['Donut']`   | 0.89 | 0.77 | 0.82 | Significant improvement in F1-score for a historically low-sample class. |
 
 ---
 
@@ -40,8 +40,8 @@ The visualization confirms the model's focus, providing essential diagnostic fee
 
 | Wafer Map | Grad-CAM Visualization | Insight |
 | :---: | :---: | :--- |
-| ![Wafer Map Input](assets/XAI_VISUALS/grad_cam_sample_2_Center.png) | ![Grad-CAM Heatmap](assets/XAI_VISUALS/grad_cam_sample_2_Center.png) | **Center Defect:** Heatmap correctly localizes attention to the dense central defect area. |
-| ![Wafer Map Input](assets/XAI_VISUALS/grad_cam_sample_3_Edge-Ring.png) | ![Grad-CAM Heatmap](assets/XAI_VISUALS/grad_cam_sample_3_Edge-Ring.png) | **Edge-Ring Defect:** Attention is focused precisely on the defect ring structure near the wafer boundary. |
+| ![Wafer Map Input](assets/grad_cam_sample_2_Center.png) | ![Grad-CAM Heatmap](assets/grad_cam_sample_2_Center.png) | **Center Defect:** Heatmap correctly localizes attention to the dense central defect area. |
+| ![Wafer Map Input](assets/grad_cam_sample_3_Edge-Ring.png) | ![Grad-CAM Heatmap](assets/grad_cam_sample_3_Edge-Ring.png) | **Edge-Ring Defect:** Attention is focused precisely on the defect ring structure near the wafer boundary. |
 
 **(Note: Please ensure you upload your image files to the `assets/XAI_VISUALS` folder on GitHub and link them correctly.)**
 
@@ -69,5 +69,3 @@ wafer-defect-xai/
 3.  **Execute:** Open the `Wafer_Defect_Classifier.ipynb` notebook in Google Colab and run all cells. The notebook automatically handles data download, training, and final visualization.
 
 ---
-
-## 5. Repository Structure and Setup
