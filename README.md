@@ -47,17 +47,20 @@ The visualization confirms the model's focus, providing essential diagnostic fee
 
 ## 5. Repository Structure and Setup
 
+```bash
 wafer-defect-xai/
+│
 ├── models/
-│ └── custom_wafer_cnn_weighted.pth # Final trained weights (F1 = 0.8574)
+│   └── custom_wafer_cnn_weighted.pth      # Final trained weights (F1 = 0.8574)
 │
 ├── assets/
 │
-├── XAI_VISUALS/ # Folder for all Grad-CAM images (.png)
+├── XAI_VISUALS/                           # Folder for all Grad-CAM images (.png)
 │
-├── Wafer_Defect_Classifier.ipynb # Clean, executable project notebook
+├── Wafer_Defect_Classifier.ipynb          # Clean, executable project notebook
 │
-└── requirements.txt # Python environment dependencies
+└── requirements.txt                       # Python environment dependencies
+
 
 ### How to Run the Project
 
